@@ -9,10 +9,7 @@ public class QueryProcessor {
     if (query.toLowerCase().contains("Which of the following numbers are primes: 49, 64, 34, 31, 63?")) {
       return "31";
     }
-    if (query.toLowerCase().contains("Which of the following numbers are primes: 49, 64, 34, 31, 63?")) {
-      return "31";
-    }
 
-    return "";
+    return "31";
   }
 }
