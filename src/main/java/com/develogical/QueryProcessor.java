@@ -11,6 +11,9 @@ public class QueryProcessor {
           + "English poet, playwright, and actor, widely regarded as the greatest "
           + "writer in the English language and the world's pre-eminent dramatist.";
     }
+    else if (query.toLowerCase().contains("Tendulkar")) {
+      return "Sachin Ramesh Tendulkar, AO is an Indian former international cricketer.";
+    }
 
     if (query.toLowerCase().contains("your name")) {
       return "RobTest";
